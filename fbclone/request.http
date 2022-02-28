@@ -1,0 +1,23 @@
+POST http://localhost:3000/api/posts
+Content-Type: application/json
+
+{
+    "desc": "5",
+    "postImage": "https://img4.thuthuatphanmem.vn/uploads/2019/12/17/anh-dep-ve-su-tu-con_103216048.jpg"  
+}
+
+###
+
+GET http://localhost:3000/api/posts
+
+###
+DELETE http://localhost:3000/api/posts/620ade69d23d265c5b14435a
+
+###
+PUT http://localhost:3000/api/posts/620ade65d23d265c5b144358
+Content-Type: application/json
+
+{
+    "desc": "anh yeu em",
+    "postImage": "rat nhieu"    
+}
